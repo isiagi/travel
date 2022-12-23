@@ -1,0 +1,20 @@
+.nav__container {
+    min-height: 13vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.nav__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav__ul ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+}

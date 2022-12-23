@@ -1,0 +1,21 @@
+.banner__container {
+  background: url("../../assets/3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.banner__wrapper h1 {
+  color: #fff;
+}

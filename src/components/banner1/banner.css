@@ -1,0 +1,30 @@
+.banner__wrapper1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.banner__item1 {
+  background: url("../../assets/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner__item2 {
+  background: url("../../assets/21.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

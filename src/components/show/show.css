@@ -1,0 +1,33 @@
+.show__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  height: 60vh;
+}
+
+.each-slide {
+  height: 60vh;
+}
+
+.show__para {
+  color: #797979;
+padding: .7rem 0;
+line-height: 2em;
+
+}
+
+.show__heading {
+  color: #555;
+  font-size: 2em;
+}
+
+.show__heading1 {
+  color: #555;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.show__heading1__span1 {
+  color: #797979;
+  text-decoration: line-through;
+}
+
